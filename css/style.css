@@ -1,0 +1,85 @@
+/*Generals*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*Utility*/
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.mbttm{
+    margin-bottom: 20px;
+}
+
+.pd-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pdrgt{
+    padding-right: 20px;
+}
+
+.mbttm2{
+    margin-bottom: 10px;
+}
+
+/*Debug*/
+
+.debug{
+    height: 50px;
+}
+
+
+/*Color*/
+.color1{
+    background-color: rgba(229, 120, 230, 1);
+}
+
+.color2{
+    background-color: rgba(225, 214, 121, 1);
+}
+
+.color3{
+    background-color: rgba(171, 207, 231, 1);
+}
+
+.color4{
+    background-color: rgba(136, 1, 254, 1);
+}
+
+/*Header*/
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*Main*/
+
+.Bbox{
+    background-color: rgba(0, 135, 253, 1);
+    width: 100%;
+}
+
+.mainbar, 
+.sidebar{
+    float: left;
+}
+
+.sidebar{
+    width: 20%;
+}
+
+.mainbar{
+    width: 60%;
+}
+
