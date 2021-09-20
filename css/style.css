@@ -122,8 +122,13 @@ ul a:hover{
     
 }
 
-.banner span{
+.info span{
     position: absolute;
+}
+
+#style1{
+    font-size: 40px;
+    bottom: -10px;
 }
 
 .info{
