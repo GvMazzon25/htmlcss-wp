@@ -48,23 +48,6 @@ body{
 }
 
 
-/*Color*/
-.color1{
-    background-color: rgba(229, 120, 230, 1);
-}
-
-.color2{
-    background-color: rgba(225, 214, 121, 1);
-}
-
-.color3{
-    background-color: rgba(171, 207, 231, 1);
-}
-
-.color4{
-    background-color: rgba(136, 1, 254, 1);
-}
-
 /*Header*/
 
 .container{
@@ -205,6 +188,26 @@ ul a:hover{
     color: #000;
     padding-bottom: 10px;
 }
+
+/*Footer*/
+
+footer{
+    width: 100%;
+}
+
+footer > span{
+    display: block;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+}
+
+#heart{
+    color: red;
+    font-size: 30px;
+}
+
+
 
 
 
